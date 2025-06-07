@@ -39,6 +39,15 @@ _G.Settings = {
         "Blood Banana",
         "Moon Melon"
     },
+    
+    SprinklerSettings = {
+        Limit = 2,
+        StartBuyWhen = 10000000,
+        SelectSprinklers = {
+            "Basic Sprinkler", "Advanced Sprinkler",
+            "Master Sprinkler", "Godly Sprinkler"
+        }
+    },
 
     SprinklerSettings = {
         StartBuyWhen = 10000000,
@@ -62,7 +71,9 @@ _G.Settings = {
     SelectHoneyStocks = {
         "Hive Fruit",
         "Nectarine",
-        "Flower Seed Pack"
+        "Flower Seed Pack",
+          "Bee Egg", 
+          "Honey Sprinkler"
     },
 
     DestroySettings = {
